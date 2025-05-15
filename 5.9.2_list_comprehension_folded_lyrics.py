@@ -7,10 +7,6 @@ t = ["– Скажи-ка, дядя, ведь не даром",
     "Как мы рубили их тогда!"
     ]
 
-# for i in range(len(t)):
-#     for ch in remove_chars:
-#         t[i] = t[i].replace(ch, '')
-
 # вариант 2
 # Используем list comprehension вместо цикла
 # t = [line.translate(str.maketrans('', '', "–")) for line in t]
